@@ -14,4 +14,4 @@
 -- | 2020 | 30       |
 -- +------+----------+
 
-
+SELECT year, count(distinct names) FROM teams GROUP BY year ORDER by year ASC;
